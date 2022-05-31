@@ -1,0 +1,108 @@
+.navbar {
+  overflow: hidden;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 120%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #0d79de;
+  text-align: center;
+  padding: 18px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  /* background: #aaa; */
+  background: #0d79de;
+  color: black;
+}
+
+.navbar-right {
+  float: right;
+}
+
+/* Change margin here */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.footer {
+  width: 100%;
+  overflow: hidden;
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.firstpage {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #191919;
+}
+
+h1 {
+  color: #eee;
+}
+
+h2 {
+  color: #eee;
+  font-weight: 400;
+}
+
+.main {
+  margin-top: 56px;
+  /* width: 97%; */
+  /* float: left; */
+}
+
+.linesofcode {
+  /* margin-top: 56px; */
+  /* width: 2%; */
+  float: left;
+  color: #505050;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* padding-bottom: 20px; */
+  /* align-: right; */
+  text-align: end;
+}
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.firstbutton {
+  font-family: 'Source Code Pro';
+  border: none;
+  /* margin:  */
+  border-radius: 25px;
+  padding: 18px 40px;
+  font-size: 150%;
+  background: #0d79de;
+  cursor: pointer;
+}
+
+.firstbutton:hover {
+  background: #0d79de;
+  color: #eee;
+}
+
+.firstbutton:active {
+  background: #0d79de66;
+}
